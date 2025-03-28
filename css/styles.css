@@ -269,7 +269,7 @@ a {
   flex-direction: column;
 }
 
-.site-flex-two {
+.site-flex {
   display: flex;
   gap: 24px;
 }
@@ -292,8 +292,8 @@ a {
 .page-two .img {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  width: 264px;
-  height: 380px;
+  /* width: 264px; */
+  /* height: 380px; */
 }
 
 .heading-two {
@@ -312,6 +312,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
 .heading-three {
   font-weight: 500;
@@ -321,6 +322,29 @@ a {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
+}
+.soclink-svg-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.svg-link {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.fill-icon {
+  fill: #fff;
 }
 
 /* 4 секція */

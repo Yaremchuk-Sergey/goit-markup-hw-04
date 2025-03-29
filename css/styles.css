@@ -479,6 +479,9 @@ a {
 .footer-div-one {
   display: flex;
   align-items: baseline;
+}
+
+.footer-div-one-three {
   gap: 16px;
 }
 

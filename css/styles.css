@@ -415,7 +415,12 @@ a {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.text-app:hover,
+.img-text {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-img:hover .text-app,
 .hero-img:hover {
   transform: translateY(0);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),

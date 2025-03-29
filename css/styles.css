@@ -459,10 +459,28 @@ a {
 .finish .container {
   align-items: left;
   justify-content: flex-start;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.text-footer {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  margin-bottom: 16px;
+}
+
+.footer-div-one {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-div-one-two {
+  margin-right: 120px;
 }

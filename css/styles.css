@@ -472,15 +472,21 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: #ffffff;
   margin-bottom: 16px;
 }
 
 .footer-div-one {
   display: flex;
   align-items: baseline;
+  gap: 16px;
 }
 
 .footer-div-one-two {
   margin-right: 120px;
+}
+
+.svg-link-soc .soclink-svg-link:hover,
+.svg-link-soc .soclink-svg-link:focus {
+  background-color: #31d0aa;
 }

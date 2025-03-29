@@ -486,7 +486,19 @@ a {
   margin-right: 120px;
 }
 
-.svg-link-soc .soclink-svg-link:hover,
-.svg-link-soc .soclink-svg-link:focus {
+.soclink-svg-footer:hover,
+.soclink-svg-footer:focus {
   background-color: #31d0aa;
+}
+
+.soclink-svg-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
